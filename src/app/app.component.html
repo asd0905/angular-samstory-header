@@ -1,2 +1,18 @@
 <app-header></app-header>
 
+<div class="navLinks">
+  <a [routerLink]="['/home']">Home</a>
+  <a [routerLink]="['/about']">About</a>
+  <a [routerLink]="['/contact']">Contact Us</a>
+  <a [routerLink]="['/products']">Products</a>
+  <a [routerLink]="['/Login']">Login</a>
+  <a [routerLink]="['/protected']">Protected</a>
+</div>
+
+<div id="content">
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+<app-products></app-products>

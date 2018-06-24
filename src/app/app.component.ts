@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import * as $ from 'jquery';
+import { Router } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-root',
